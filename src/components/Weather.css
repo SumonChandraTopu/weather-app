@@ -1,0 +1,132 @@
+.weathers-container {
+  background-image: linear-gradient(to right bottom, #ce0075, #c6008b, #b817a3, #a12cba, #7f3ed0, #655ce5, #4474f4, #0089ff, #00abff, #00c9ff, #00e2fc, #00f9e9);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.weathers {
+  background-color: rgba(225, 225, 225, 0.3);
+  padding: 1.3rem;
+  border-radius: 1rem;
+  width: 30rem;
+  color: #fff;
+  text-align: center;
+  height: 32rem;
+  box-shadow: 2px 5px 44px -28px rgba(0,0,0,0.85) inset;
+-webkit-box-shadow: 2px 5px 44px -28px rgba(0,0,0,0.85) inset;
+-moz-box-shadow: 2px 5px 44px -28px rgba(0,0,0,0.85) inset;
+}
+
+.weathers > h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.weather-details > h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.input > input {
+  padding: 0.5rem 1rem;
+  background-color: #eff0ff32;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.input > button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: aqua;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.weather-details h3 {
+  font-size: 1.5rem;
+}
+.country-name {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.celsius {
+  font-size: 5rem !important;
+  color: #dcdada;
+}
+
+.country-name small {
+  position: absolute;
+  font-size: 1rem;
+  background-color: #b63a00;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.7rem;
+}
+
+.weather-icon {
+  width: 7rem;
+}
+
+.max-min {
+  display: flex;
+  justify-content: space-around;
+  gap: 6rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.max h4 {
+  font-size: 2rem;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 0.4rem;
+}
+.max p {
+  font-size: 1.5rem;
+}
+.min p {
+  font-size: 1.5rem;
+}
+.min h4 {
+  font-size: 2rem;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 0.4rem;
+}
+
+.not-found {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #ff2600;
+  margin-top: 4rem;
+}
+
+.not-found-img {
+  width: 10rem;
+}
+
+
+
+@media only screen and (max-width: 688px) {
+  .weathers{
+    width: 20rem;
+  }
+}
